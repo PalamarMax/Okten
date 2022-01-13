@@ -13,38 +13,38 @@ div {
     border: 1px solid #ba8e44;
 }
 
-.squareA {
+.square-a {
     box-shadow: 10px 10px 0 0 #464646;
     border-right: 1px solid #636b73;
     border-bottom: 1px solid #636b73;
 }
 
-.squareB {
+.square-b {
     box-shadow: 10px 10px 5px 0 #464646;
     border-left: 1px solid #636b73;
     border-bottom: 1px solid #636b73;
 }
 
-.squareC {
+.square-c {
     box-shadow: 10px 10px 5px 3px #464646;
     border-right: 1px solid #636b73;
     border-bottom: 1px solid #636b73;
 }
 
-.squareD {
+.square-d {
     box-shadow: 10px 10px 5px 3px #9e9e9e;
     border-right: 1px solid #636b73;
     border-bottom: 1px solid #636b73;
 }
 
-.squareE {
+.square-e {
     border-radius: 5px;
     box-shadow: 10px 10px 5px 3px #464646;
     border-left: 1px solid #636b73;
     border-bottom: 1px solid #636b73;
 }
 
-.squareF {
+.square-f {
     border-radius: 5px;
     box-shadow: 10px 10px 5px 3px #9e9e9e;
     border-right: 1px solid #636b73;
