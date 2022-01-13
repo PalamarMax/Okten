@@ -1,0 +1,17 @@
+div {
+    width: 550px;
+    height: 275px;
+    background-color: #808080;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: -27px -21px 34px 15px #d5b791;
+    /*box-shadow: -47px -21px 34px 15px #d0b88c;*/
+    /*box-shadow: -32px -20px 34px 5px #d0b88c;*/
+
+}
+
+p {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 5px solid red;
+}
