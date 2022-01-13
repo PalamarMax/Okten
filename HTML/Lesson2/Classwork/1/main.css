@@ -14,23 +14,23 @@ p {
     text-align: center;
 }
 
-.figure1 {
-    margin-top: 145px;
+.figure-one {
+    margin-top: 175px;
     border: 5px solid #ff6e1d;
     color: #ff6e1d;
 }
 
-.figure2 {
+.figure-two {
     border: 5px solid #2cfff2;
     color: #2cfff2;
 }
 
-.figure3 {
+.figure-tree {
     border: 5px solid #ff54a6;
     color: #ff54a6;
 }
 
-.figure4 {
+.figure-four {
     border: 5px solid #ff3e3e;
     color: #ff3e3e;
 }
