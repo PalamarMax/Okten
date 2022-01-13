@@ -8,13 +8,13 @@ p {
     margin: 0;
 }
 
-.paragraph1 {
+.paragraph-one {
     background-color: #c0c0c0;
     text-align: justify;
     padding: 15px;
 }
 
-.paragraph2 {
+.paragraph-two {
     background-color: #6395ec;
     padding: 40px 0;
 }
@@ -24,11 +24,11 @@ div {
     height: 225px;
 }
 
-.target1 {
+.target-one {
     background-color: #6bba67;
 }
 
-.target2 {
+.target-two {
     background-color: #8886ab;
     border-radius: 25px;
 }
