@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    background-color: #252525;
+    margin: 0 auto;
+}
+
+.wrap-one {
+    height: 150px;
+    background-color: #6395ec;
+}
+
+.container-one {
+    display: flex;
+    margin-top: 10px;
+}
+
+.wrap-two {
+    height: 550px;
+    width: 895px;
+    background-color: tomato;
+    margin-right: 5px;
+}
+
+.wrap-tree {
+    height: 550px;
+    width: 295px;
+    background-color: green;
+    margin-left: 5px;
+}

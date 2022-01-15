@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.widgets {
+    height: 350px;
+    background-color: #448cd8;
+}
+
+.target {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.target>div{
+    width: 325px;
+    height: 325px;
+    background-color: darkblue;
+}
+
+.contact {
+    height: 700px;
+    background-color: #448cd8;
+}
