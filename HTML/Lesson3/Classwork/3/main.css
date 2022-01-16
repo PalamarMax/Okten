@@ -12,7 +12,6 @@ body {
 }
 
 .wrap-one, .wrap-two, .wrap-tree, .container-tree>div {
-    color: #9b9b9b;
     background-color: #d9d9d9;
 }
 
