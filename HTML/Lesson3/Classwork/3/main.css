@@ -11,7 +11,7 @@ body {
     padding: 10px;
 }
 
-.wrap-one, .wrap-tree, .container-tree>div {
+.wrap-one, .wrap-two, .wrap-tree, .container-tree>div {
     color: #9b9b9b;
     background-color: #d9d9d9;
 }
@@ -30,9 +30,13 @@ body {
     margin-top: 10px;
 }
 
-.container-tree>div{
-    width: 260px;
+.wrap-two {
     height: 260px;
+}
+
+.container-tree>div{
+    width: 261px;
+    height: 261px;
 }
 
 .wrap-tree {
