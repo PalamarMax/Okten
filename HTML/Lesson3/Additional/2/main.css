@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #f4423e;
+}
+
+.container {
+    width: 972px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 170px;
+    display: flex;
+    background-color: #dadfe3;
+}
+
+.logo {
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background-color: #adb2b8;
+    margin: 30px 140px 0 72px;
+}
+
+.menu>nav>ul{
+    padding: 0;
+    margin: 0;
+}
+
+.menu>nav>ul>li {
+    width: 105px;
+    height: 22px;
+    display: inline-block;
+    list-style: none;
+    border-radius: 6px;
+    background-color: #adb2b8;
+    margin-top: 93px;
+    margin-right: 50px;
+}
+
+.hero {
+    height: 615px;
+    background-color: #dadfe3;
+}
+
+.hero-title, .hero-text {
+    border-radius: 6px;
+    background-color: #adb2b8;
+    position: relative;
+    top: 126px;
+}
+
+.hero-title {
+    width: 359px;
+    height: 35px;
+    left: 297px;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    width: 453px;
+    height: 35px;
+    left: 256px;
+}
+
+.hero-search {
+    display: flex;
+}
+
+.hero-search-one, .hero-search-two {
+    position: relative;
+}
+
+.hero-search-one {
+    height: 62px;
+    width: 514px;
+    border-radius: 31px;
+    background-color: white;
+    top: 161px;
+    left: 182px;
+}
+
+.hero-search-two {
+    width: 242px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #adb2b8;
+    top: 151px;
+    left: 39px;
+}
