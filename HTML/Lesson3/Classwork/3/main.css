@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    border: 4px solid #9b9b9b;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.wrap-one, .wrap-tree, .container-tree>div {
+    color: #9b9b9b;
+    background-color: #d9d9d9;
+}
+
+.wrap-one {
+    height: 150px;
+}
+
+.container-two {
+    width: 68%;
+}
+
+.container-one, .container-tree {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.container-tree>div{
+    width: 260px;
+    height: 260px;
+}
+
+.wrap-tree {
+    height: 530px;
+    width: 31%;
+}
+

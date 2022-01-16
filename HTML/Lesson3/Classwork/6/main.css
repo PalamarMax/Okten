@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.wrap, .target {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap>div {
+    width: 243px;
+    height: 410px;
+    background-color: #2269bb;
+}
+
+.kabobs {
+    height: 205px;
+    background-color: #2269bb;
+    margin: 15px 0;
+}
+
+.target>div{
+    width: 155px;
+    height: 188px;
+    background-color: #16457a;
+}
