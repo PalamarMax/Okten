@@ -7,7 +7,7 @@ body {
 .container {
     width: 635px;
     margin: 0 auto;
-    transform: scale(1.7)
+    transform: scale(1.7);
     /*Знаю, що це не потрібно, просто зробив спочатку його дуже малим*/
 }
 
