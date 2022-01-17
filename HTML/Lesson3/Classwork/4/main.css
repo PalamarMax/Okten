@@ -11,7 +11,7 @@ body {
     padding: 10px;
 }
 
-.wrap-one, .wrap-tree, .container-tree>div {
+.wrap-one, .wrap-tree, .container-tree > div {
     color: #9b9b9b;
     background-color: #d9d9d9;
 }
@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
 }
 
-.container-tree>div{
+.container-tree > div {
     width: 260px;
     height: 260px;
 }

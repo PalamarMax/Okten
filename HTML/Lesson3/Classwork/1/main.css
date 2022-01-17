@@ -25,19 +25,19 @@ h1 {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card>i {
+.card > i {
     color: #999999;
     font-size: 20px;
     padding: 20px 0;
 }
 
-.card>h2 {
+.card > h2 {
     font-size: 14px;
     margin: 0;
     color: #b46425;
 }
 
-.card>p {
+.card > p {
     font-size: 10px;
     padding: 0 10px;
     line-height: 1.7;
@@ -45,17 +45,19 @@ h1 {
     margin-bottom: 18px;
 }
 
-.card>a {
+.card > a {
     text-decoration: none;
+    display: inline-block
 }
 
-.card>a>p {
+.card > a > p {
     width: 80px;
     height: 29px;
     color: white;
     font-size: 10px;
     background-color: #55c3b6;
     margin: 0 auto;
+    display: inline-block;
     box-sizing: border-box;
     padding-top: 9px;
 }

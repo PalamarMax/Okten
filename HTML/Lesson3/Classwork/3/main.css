@@ -11,7 +11,7 @@ body {
     padding: 10px;
 }
 
-.wrap-one, .wrap-two, .wrap-tree, .container-tree>div {
+.wrap-one, .wrap-two, .wrap-tree, .container-tree > div {
     background-color: #d9d9d9;
 }
 
@@ -33,7 +33,7 @@ body {
     height: 260px;
 }
 
-.container-tree>div{
+.container-tree > div {
     width: 261px;
     height: 261px;
 }
