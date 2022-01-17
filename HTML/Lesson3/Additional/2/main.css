@@ -6,6 +6,7 @@ body {
 .container {
     width: 972px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .header {
@@ -46,21 +47,21 @@ body {
 .hero-title, .hero-text {
     border-radius: 6px;
     background-color: #adb2b8;
+    margin: 0 auto;
     position: relative;
-    top: 126px;
 }
 
 .hero-title {
-    width: 359px;
+    width: 358px;
     height: 35px;
-    left: 297px;
     margin-bottom: 10px;
+    top: 126px;
 }
 
 .hero-text {
     width: 453px;
     height: 35px;
-    left: 256px;
+    top: 126px;
 }
 
 .hero-search {
@@ -88,3 +89,90 @@ body {
     top: 151px;
     left: 39px;
 }
+
+.destinations-block {
+    width: 595px;
+    margin: 45px auto 75px auto;
+}
+
+.destinations-title {
+    width: 595px;
+    height: 45px;
+    background-color: #adb2b8;
+    border-radius: 8px;
+}
+
+.destinations-text-one {
+    width: 446px;
+    height: 23px;
+    background-color: #c3c8cc;
+    border-radius: 6px;
+    margin: 15px auto 15px auto;
+}
+
+.destinations-text-two {
+    width: 323px;
+    height: 23px;
+    background-color: #c3c8cc;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.destinations-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.wrap, .wrap-one {
+    height: 259px;
+    background-color: #dadfe3;
+}
+
+.wrap {
+    width: 314px;
+}
+
+.wrap-one {
+    width: 642px;
+}
+
+.content {
+    margin: 105px auto;
+}
+
+.wrap-one>.content {
+    margin: 98px auto;
+}
+
+.content-one, .content-two, .content-tree, .content-four {
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: #c3c8cc;
+}
+
+.content-one, .content-tree {
+    height: 23px;
+}
+
+.content-four, .content-two {
+    height: 15px;
+    margin-top: 12px;
+}
+
+.content-one {
+    width: 191px;
+}
+
+.content-two {
+    width: 122px;
+}
+
+.content-tree {
+    width: 360px;
+}
+
+.content-four {
+    width: 292px;
+}
+
