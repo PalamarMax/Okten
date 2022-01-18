@@ -7,9 +7,12 @@ body {
     width: 500px;
 }
 
+.contact, .widgets {
+    background-color: #2269bb;
+}
+
 .widgets {
     height: 205px;
-    background-color: #2269bb;
 }
 
 .target {
@@ -26,5 +29,4 @@ body {
 
 .contact {
     height: 410px;
-    background-color: #2269bb;
 }

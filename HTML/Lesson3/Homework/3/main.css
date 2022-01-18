@@ -7,16 +7,13 @@ body {
 .container {
     width: 635px;
     margin: 0 auto;
-
+    box-sizing: border-box;
+    padding-top: 190px;
 }
 
-.cards-menu {
+.card, .cards-menu {
     display: flex;
     justify-content: space-between;
-}
-
-.cards-menu:first-child {
-    margin-top: 200px;
 }
 
 .card {
@@ -24,8 +21,6 @@ body {
     width: 310px;
     background-color: #fefefe;
     border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
     margin: 6px 0;
 }
 

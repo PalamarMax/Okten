@@ -13,9 +13,12 @@ body {
     border: 10px solid black;
 }
 
+.header, .main, .container56, .wrap {
+    display: flex;
+}
+
 .header {
     height: 110px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
@@ -25,11 +28,11 @@ body {
 .header-block, .aside-block {
     height: 50px;
     width: 160px;
-    background-color: #E7E7E8;
 }
 
-.main, .container56, .wrap {
-    display: flex;
+.header-block, .aside-block, .block, .block-one, .block-two, .block-tree,
+.block-three, .block-four, .block-six {
+    background-color: #E7E7E8;
 }
 
 .aside {
@@ -49,7 +52,6 @@ body {
 .block {
     margin: auto;
     height: 380px;
-    background-color: #E7E7E8;
 }
 
 .container-four, .wrap {
@@ -60,7 +62,6 @@ body {
 .block-one {
     width: 150px;
     height: 90px;
-    background-color: #E7E7E8;
 }
 
 .container-five {
@@ -78,21 +79,18 @@ body {
 .block-two {
     width: 225px;
     height: 115px;
-    background-color: #E7E7E8;
 }
 
 .block-tree {
     width: 100px;
     height: 25px;
     margin: 0 auto 20px auto;
-    background-color: #E7E7E8;
 }
 
 .block-six {
     margin: 25px auto 0 auto;
     width: 140px;
     height: 70px;
-    background-color: #E7E7E8;
 }
 
 .container-seven {
@@ -101,12 +99,10 @@ body {
 
 .block-three {
     height: 35px;
-    background-color: #E7E7E8;
 }
 
 .block-four {
     width: 140px;
     height: 35px;
-    background-color: #E7E7E8;
     margin: 20px auto 0 auto;
 }
