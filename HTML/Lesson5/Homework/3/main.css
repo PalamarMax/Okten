@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    border: 4px solid #9b9b9b;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.wrap-one, .wrap-tree, .wrap-four {
+    background-color: #d9d9d9;
+}
+
+.wrap-one {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.container-two {
+    width: 68%;
+}
+
+.container-one, .container-tree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap-four {
+    width: 262px;
+    height: 262px;
+}
+
+.wrap-tree {
+    min-height: 534px;
+    width: 370px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .container {
+        border: 4px solid #5f5f5f;
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .container-one {
+        display: block;
+    }
+
+    .container-two {
+        width: 100%;
+    }
+
+    .wrap-one, .wrap-two, .wrap-tree, .wrap-four {
+        border-radius: 10px;
+    }
+
+    .wrap-one {
+        height: 100px;
+    }
+
+    .wrap-tree {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .wrap-four {
+        width: 170px;
+        height: 170px;
+    }
+
+    .mr-10 {
+        margin-right: 15px;
+    }
+
+    .mb-10 {
+        margin-bottom: 0;
+    }
+
+    .container-tree {
+        margin-bottom: 15px;
+    }
+
+}
