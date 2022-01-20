@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.bg-silver {
+    background-color: #676767;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-block, .block, .block-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    min-height: 110px;
+    width: 24%;
+}
+
+.header {
+    min-height: 110px;
+    width: 74%;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.nav {
+    min-height: 110px;
+}
+
+.intro {
+    min-height: 222px;
+    flex: 0 0 64%;
+}
+
+.ad {
+    min-height: 222px;
+    width: 34%;
+}
+
+.types {
+    min-height: 590px;
+}
+
+.products {
+    min-height: 255px;
+}
+
+.store {
+    min-height: 130px;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.tools {
+    min-height: 130px;
+    width: 50%;
+}
+
+.footer {
+    min-height: 160px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e47c7d;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.desktop-store-locator {
+    display: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .desktop-store-locator {
+        display: flex;
+        min-height: 100px;
+    }
+
+    .mobile-store-locator{
+        display: none;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .aside {
+        flex: 0 0 24%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav {
+        flex-grow: 1;
+    }
+
+    .main {
+        flex: 0 0 74%;
+    }
+
+    .article {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .types {
+        flex: 0 0 64%;
+    }
+
+    .products {
+        flex: 0 0 34%;
+    }
+}
