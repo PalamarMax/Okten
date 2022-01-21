@@ -3,6 +3,10 @@ body {
     background-color: #B4CAD6;
 }
 
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -18,16 +22,20 @@ body {
 }
 
 .header {
-    height: 110px;
+    min-height: 110px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
-.header-block, .aside-block {
-    height: 50px;
-    width: 160px;
+.header-block {
+    min-height: 50px;
+    width: 19%;
+}
+
+.aside-block {
+    min-height: 50px;
+    width: 80%;
 }
 
 .header-block, .aside-block, .block, .block-one, .block-two, .block-tree,
@@ -36,22 +44,24 @@ body {
 }
 
 .aside {
-    width: 220px;
+    width: 24%;
 }
 
 .aside-block {
     margin: 15px auto 0 auto;
 }
 
-.container-three, .container-four {
-    width: 760px;
-    box-sizing: border-box;
+.content {
+    width: 76%;
+}
+
+.p20 {
     padding: 20px;
 }
 
 .block {
-    margin: auto;
-    height: 380px;
+    margin: 0 auto;
+    min-height: 380px;
 }
 
 .container-four, .wrap {
@@ -60,41 +70,36 @@ body {
 }
 
 .block-one {
-    width: 150px;
-    height: 90px;
+    width: 22%;
+    min-height: 90px;
 }
 
 .container-five {
-    width: 520px;
+    width: 72%;
+
 }
 
 .container-six {
-    width: 200px;
+    width: 28%;
 }
 
-.wrap {
-    padding: 20px;
+.wrap, .block-six {
+    margin-bottom: 20px;
 }
 
 .block-two {
-    width: 225px;
-    height: 115px;
+    width: 47%;
+    min-height: 115px;
 }
 
 .block-tree {
-    width: 100px;
-    height: 25px;
-    margin: 0 auto 20px auto;
+    width: 20%;
+    min-height: 25px;
+    margin: 0 auto;
 }
 
 .block-six {
-    margin: 25px auto 0 auto;
-    width: 140px;
-    height: 70px;
-}
-
-.container-seven {
-    padding: 20px;
+    min-height: 70px;
 }
 
 .block-three {
@@ -118,11 +123,37 @@ body {
         display: none;
     }
 
-    .container-three, .container-four {
+    .content {
         width: 100%;
-        box-sizing: border-box;
-        padding: 20px;
     }
 
+    .container-four {
+        flex-wrap: wrap;
+    }
+
+    .block-one {
+        width: 48%;
+        min-height: 180px;
+    }
+
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .container56 {
+        display: block;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .block-two {
+        width: 48%;
+    }
+
+    .container56, .container-five, .container-six {
+        width: 100%;
+    }
 
 }
