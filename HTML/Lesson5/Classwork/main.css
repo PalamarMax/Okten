@@ -38,8 +38,7 @@ body {
     width: 80%;
 }
 
-.header-block, .aside-block, .block, .block-one, .block-two, .block-tree,
-.block-three, .block-four, .block-six {
+.bg-silver {
     background-color: #E7E7E8;
 }
 
@@ -76,7 +75,6 @@ body {
 
 .container-five {
     width: 72%;
-
 }
 
 .container-six {
@@ -103,18 +101,95 @@ body {
 }
 
 .block-three {
-    height: 35px;
+    min-height: 35px;
 }
 
 .block-four {
     width: 140px;
-    height: 35px;
+    min-height: 35px;
     margin: 20px auto 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
     .aside {
         display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .header {
+        display: block;
+        padding: 20px;
+    }
+
+    .mobile-header-one, .mobile-header-two {
+        min-height: 30px;
+    }
+
+    .mobile-header-one {
+        width: 30%;
+        margin: 0 auto 20px auto;
+    }
+
+    .mobile-header-two {
+        width: 100%;
+    }
+
+    .block {
+        min-height: 280px;
+    }
+
+    .container-four {
+        flex-wrap: wrap;
+    }
+
+    .block-one {
+        width: 48%;
+        min-height: 180px;
+    }
+
+    .mmb-20 {
+        margin-bottom: 20px;
+    }
+
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .container56 {
+        display: block;
+    }
+
+    .dfr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-two {
+        width: 100%;
+        min-height: 70px;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .container56, .container-five, .container-six {
+        width: 100%;
+    }
+
+    .mmb-0 {
+        margin-bottom: 0;
+    }
+
+    .container-six > .block-six {
+        min-height: 260px;
+    }
+
+    .block-three, .block-four {
+        min-height: 30px;
     }
 }
 
@@ -140,6 +215,10 @@ body {
         margin-bottom: 20px;
     }
 
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
     .container56 {
         display: block;
     }
@@ -156,4 +235,16 @@ body {
         width: 100%;
     }
 
+    .container-six {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-six > .block-six {
+        width: 48%;
+    }
+
+    .mobile-six {
+        width: 48%;
+    }
 }
