@@ -38,9 +38,19 @@ body {
     font-size: 12px;
 }
 
-.header-nav1 {
-    column-gap: 42px;
+.header-nav1  {
+    max-width: 618px;
+    justify-content: space-between;
 }
+
+.header-nav1 > div:not(:last-child) {
+    margin-right: 48px;
+}
+
+
+
+
+
 
 .cg-8 {
     column-gap: 8px;
@@ -90,11 +100,13 @@ body {
 }
 
 .content1-text {
-    padding: 154px 147px 0 147px;
+    width: 58%;
+    padding-left: 147px;
+    padding-top: 154px;
 }
 
 .content1-text > h1 {
-    width: 436px;
+    max-width: 436px;
     font-weight: normal;
     font-size: 60px;
     line-height: 64px;
@@ -102,7 +114,7 @@ body {
 }
 
 .content1-text > p {
-    width: 435px;
+    max-width: 436px;
     font-weight: normal;
     font-size: 22px;
     line-height: 32px;
@@ -111,23 +123,34 @@ body {
 
 .content1-foto {
     position: absolute;
-    top: 255px;
-    margin-left: -108px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20%;
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
-.yellow-block {
-    width: 600px;
-    height: 886px;
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
 
+
+.yellow-block {
+    width: 42%;
+    min-height: 886px;
+position: relative;
     background-color: #F9C600;
 }
 
 .content2 {
-    padding: 190px 173px;
+    padding: 190px 0;
 }
 
 .content2 > h2 {
-    width: 546px;
+    max-width: 546px;
     font-size: 42px;
     line-height: 48px;
     font-weight: normal;
@@ -136,6 +159,8 @@ body {
 }
 
 .companies_logo {
+    max-width: 1192px;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -143,9 +168,14 @@ body {
     margin-bottom: 16px;
 }
 
+.content3-wrapper {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
 .content3 {
-    width: 1376px;
-    height: 494px;
+    min-height: 494px;
+    padding-right: 120px;;
     margin: 0 auto 191px auto;
     background-color: #02cfbd;
     border-radius: 10px;
@@ -153,15 +183,17 @@ body {
 }
 
 .content3 > div > img {
-    width: 678px;
+    display: block;
+    max-width: 678px;
+    height: auto;
 }
 
 .content3-text {
-    padding: 114px 0 161px 20px;
+    padding: 114px 0 0 20px;
 }
 
 .p1 {
-    width: 545px;
+
     font-weight: normal;
     font-size: 34px;
     line-height: 40px;
@@ -169,18 +201,20 @@ body {
 }
 
 .p2 {
-    width: 545px;
     font-weight: normal;
     font-size: 22px;
     line-height: 32px;
 }
 
 .content4 {
-    width: 911px;
+    max-width: 911px;
     margin: 0 auto;
 }
 
 .content4 > img {
+    max-width: 100%;
+    display: block;
+    height: auto;
     margin-bottom: 113px;
 }
 
