@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
     <script src="https://kit.fontawesome.com/efa2387a31.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,37 +19,32 @@
         <div class="header df">
             <div class="header-logo">
                 <img src="img/logo.png" alt="Sprig">
-                <p>formerly UserLeap</p>
             </div>
-            <nav class="header-nav1 df centered">
-                <div>
-                    <a class="td-n" href="">Why Sprig?</a>
-                </div>
-                <div class="df cg-8 centered">
-                    <a class="td-n" href="">Product</a>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-                <div class="df cg-8 centered">
-                    <a class="td-n" href="">Customers</a>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-                <div class="df cg-8 centered">
-                    <a class="td-n" href="">Resources</a>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-                <div><a class="td-n" href="">Plans</a></div>
+            <nav class="header-nav1 df">
+                <ul class="menu-one">
+                    <li><a class="td-n" href="">Why Sprig?</a></li>
+                    <li>
+                        <a class="td-n mr-8" href="">Product</a>
+                        <i class="fas fa-angle-down"></i>
+                    </li>
+                    <li>
+                        <a class="td-n mr-8" href="">Customers</a>
+                        <i class="fas fa-angle-down"></i>
+                    </li>
+                    <li>
+                        <a class="td-n mr-8" href="">Resources</a>
+                        <i class="fas fa-angle-down"></i>
+                    </li>
+                    <li><a class="td-n" href="">Plans</a></li>
+                </ul>
             </nav>
-            <nav class="header-nav2 df centered">
-                <div>
-                    <a class="td-n" href="">Sign In</a>
-                </div>
-                <div>
-                    <a class="td-n" href="">Talk to Sales</a>
-                </div>
-                <div class="btn">
-                    <a class="td-n" href="">Start for Free</a>
-                </div>
-            </nav>
+            <div class="registering df">
+                <ul class="menu-two">
+                    <li><a class="td-n" href="">Sign In</a></li>
+                    <li><a class="td-n" href="">Talk to Sales</a></li>
+                </ul>
+                <button class="btn">Start for Free</button>
+            </div>
         </div>
     </div>
 </header>
@@ -62,69 +58,60 @@
                     and more.
                 </p>
                 <div class="df">
-                    <div class="btn1">
-                        <a class="td-n" href="">Start for Free</a>
-                    </div>
-                    <div class="btn2">
-                        <a class="td-n" href="">Talk to Sales</a>
-                    </div>
+                    <button class="btn1">Start for Free</button>
+                    <button class="btn2">Talk to Sales</button>
                 </div>
             </div>
             <div class="yellow-block">
-                     <img  class="content1-foto" src="img/content1.png" alt="foto">
-
-             </div>
+                <img class="content1-photo" src="img/content1.png" alt="photo">
+            </div>
         </div>
         <div class="content2">
             <h2>Trusted by the world's most innovative companies</h2>
             <div class="companies_logo df mb16">
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/square.png" alt="square">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/code_cademy.png" alt="code_cademy">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/dropbox.png" alt="dropbox">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/loom.png" alt="loom">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/adobe.png" alt="adobe">
                 </div>
-            </div>
-            <div class="companies_logo df mb16">
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/shift.png" alt="shift">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/ease.png" alt="ease">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/ironclad.png" alt="ironclad">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/opendoor.png" alt="opendoor">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/surgline.png" alt="surgline">
                 </div>
-            </div>
-            <div class="companies_logo df mb16">
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/app_anie.png" alt="app_anie">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/beyond_pricing.png" alt="beyond_pricing">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/proguides.png" alt="proguides">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/invoice2go.png" alt="invoice2go">
                 </div>
-                <div>
+                <div class="wrapper_logo">
                     <img src="img/companies/chipper.png" alt="chipper">
                 </div>
             </div>
@@ -136,21 +123,55 @@
                 </div>
                 <div class="content3-text">
                     <p class="p1">
-                        Modern product teams move fast, but learning from customers takes a ton of time, effort, and energy.
+                        Modern product teams move fast, but learning from customers takes a ton of time, effort, and
+                        energy.
                     </p>
                     <p class="p2">
-                        So teams often rush user research or skip it altogether, causing products and features to miss the
-                        mark.
+                        So teams often rush user research or skip it altogether, causing products and features to miss
+                        the mark.
                     </p>
                 </div>
             </div>
         </div>
-
         <div class="content4">
             <p class="p3">Sprig makes it possible to obtain qualitative insights at the speed and scale of analytics</p>
             <img src="img/screenshot.png" alt="screenshot">
-            <div class="btn3">
-                <a class="td-n" href="">Start for Free</a>
+            <button class="btn1 df" type="button">Start for Free</button>
+        </div>
+
+        <div class="content8 df">
+            <div class="case-study">
+                <div>
+                    <h3>CASE STUDY</h3>
+                    <p class="cs-p1">Trusted by the world's most customer-centric teams</p>
+                    <p class="cs-p2">Sprig helps product and research teams ensure user insights fuel every product
+                        decision.</p>
+                    <button class="btn2">Read More</button>
+                </div>
+            </div>
+            <div class="comment">
+                <p>
+                    Sprig helps us collect insights easier, faster, and more accurately than any other tool on the
+                    market, which allows us to build a better product for our users and ultimately grow our revenue.
+                </p>
+                <div class="avatar-content df">
+                    <img src="img/avatar.png" alt="avatar">
+                    <div class="avatar-text">
+                        <h3>Daniel Layfield</h3>
+                        <p>Growth Product Manager at Codecademy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content9">
+            <div class="content9-text">
+                <h2>Launch a Sprig within minutes. See insights within hours.</h2>
+                <p>
+                    Create your free account to conduct video interviews, test designs, and survey specific users within
+                    your product, on your website, and more.
+                </p>
+                <button class="btn1 df" type="button">Start for Free</button>
             </div>
         </div>
     </div>
