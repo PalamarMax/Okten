@@ -70,6 +70,10 @@
     .content3 > div > img {
         max-width: 400px;
     }
+
+    .content7 {
+        padding-left: 40px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -131,6 +135,30 @@
     }
 }
 
+@media (max-width: 873px) {
+    .content7 {
+        flex-direction: column;
+        padding-left: 0;
+        /*margin-bottom: 80px;*/
+    }
+
+    .integration {
+        margin-right: 0;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .integration .btn1 {
+        margin-bottom: 35px;
+    }
+
+    .content7-img {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
 
 @media (max-width: 818px) {
     .registering .btn {
