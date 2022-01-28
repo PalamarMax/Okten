@@ -8,6 +8,13 @@
     }
 }
 
+@media (max-width: 1235px) {
+    .content67 {
+        padding-left: 60px;
+        padding-right: 32px;
+    }
+}
+
 @media screen and (min-width: 1100px) and (max-width: 1200px) {
     .content3 {
         padding-right: 80px;
@@ -15,6 +22,12 @@
 
     .content3 > div > img {
         max-width: 525px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .content6 {
+        padding-left: 42px;
     }
 }
 
@@ -32,7 +45,41 @@
     .case-study, .comment {
         padding-left: 40px;
     }
+
+    .content5 {
+        padding-left: 32px;
+        min-height: initial;
+    }
+
+    .violet-block {
+        padding: 20px;
+    }
+
+    .content5-photo {
+        transform: initial;
+        position: static;
+        margin: 0 auto 32px auto;
+    }
+
+    .vb-text {
+        transform: initial;
+        position: static;
+        padding-right: 0;
+    }
+
+    .vb-text h2 {
+        max-width: 800px;
+        text-align: center;
+        margin: 0 auto 39px auto;
+    }
+
+    .vb-text p {
+        max-width: 750px;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
+
 
 @media screen and (min-width: 1000px) and (max-width: 1110px) {
     .content1-text {
@@ -52,6 +99,13 @@
     }
 }
 
+@media screen and (max-width: 1075px) {
+    .features-content img {
+        display: none;
+    }
+
+
+}
 
 @media screen and (max-width: 1000px) {
     .content1-text {
@@ -152,6 +206,22 @@
     .integration .btn1 {
         margin-bottom: 35px;
     }
+
+    .content6 {
+        min-height: 1525px;
+        padding-left: 32px;
+    }
+
+    .solution-text {
+        text-align: center;
+    }
+
+    .st-p1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 
     .content7-img {
         width: 100%;
@@ -289,6 +359,10 @@
 
     .content4 > img {
         margin-bottom: 75px
+    }
+
+    .solution-content {
+        flex-direction: column;
     }
 }
 
