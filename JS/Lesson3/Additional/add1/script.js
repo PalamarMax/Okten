@@ -36,6 +36,7 @@
 // for (let i = arr.length; i < 140; i++) {
 //     arr[i] = Math.floor(Math.random() * 724) + 8;
 // }
+// console.log(arr);
 
 
 // 2. Вивести за допомогою console.log кожен третій елемен
@@ -64,8 +65,8 @@
 // for (let i = 0; i < arr.length; i++) {
 //     if (i % 3 === 0) {
 //         if (arr[i] % 2 === 0) {
-//             mas[i] = arr[i];
-//             console.log('Номер елементу -', i, ', елемент -', mas[i]);
+//             mas.push(arr[i]);
+//             console.log('Номер елементу -', i, ', елемент -',arr[i]);
 //         }
 //     }
 // }
@@ -76,8 +77,8 @@
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
 
 // for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] % 2 === 0) {
-//         console.log('Число - ',arr[i-1], 'Його сусід -',arr[i]);
+//     if (arr[i+1] % 2 === 0) {
+//         console.log('Число - ',arr[i], 'Його сусід -',arr[i+1]);
 //     }
 // }
 
@@ -113,7 +114,7 @@
 //
 // for (let i = 0; i < mas.length; i++) {
 //     if (typeof mas[i] === 'number') {
-//         arrNew[i] = mas[i];
+//         arrNew.push(mas[i]);
 //     }
 // }
 // console.log(arrNew);
@@ -122,43 +123,47 @@
 // - Дано 2 масиви з рівною кількістю об'єктів.
 // Масиви:
 
-let usersWithId = [
-    {id: 1, name: 'vasya', age: 31, status: false},
-    {id: 2, name: 'petya', age: 30, status: true},
-    {id: 3, name: 'kolya', age: 29, status: true},
-    {id: 4, name: 'olya', age: 28, status: false}
-];
-
-
-let citiesWithId = [
-    {user_id: 3, country: 'USA', city: 'Portland'},
-    {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
-    {user_id: 2, country: 'Poland', city: 'Krakow'},
-    {user_id: 4, country: 'USA', city: 'Miami'}
-];
+// let usersWithId = [
+//     {id: 1, name: 'vasya', age: 31, status: false},
+//     {id: 2, name: 'petya', age: 30, status: true},
+//     {id: 3, name: 'kolya', age: 29, status: true},
+//     {id: 4, name: 'olya', age: 28, status: false}
+// ];
+//
+//
+// let citiesWithId = [
+//     {user_id: 3, country: 'USA', city: 'Portland'},
+//     {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+//     {user_id: 2, country: 'Poland', city: 'Krakow'},
+//     {user_id: 4, country: 'USA', city: 'Miami'}
+// ];
 
 
 // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
 // Записати цей об'єкт в новий масив
 
+
 // let usersWithCities = [];
-// for (let i = 0; i < usersWithId.length; i++)
-//     for (let j = 0; j < citiesWithId.length; j++) {
-//         if (usersWithId.id[i] === citiesWithId.user_id[j]) {
-//             usersWithCities = usersWithId + citiesWithId;
+// for (let user of usersWithId) {
+//     for (let city of citiesWithId) {
+//         if (user.id === city.user_id){
+//             user.address = city;
+//             usersWithCities.push(user);
 //         }
 //     }
+// }
 // console.log(usersWithCities);
+
 
 
 // - Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
 
 // let masNum = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-// for (let i = 0; i < masNum.length; i++) {
-//     if (masNum[i] % 2 === 0) {
-//         console.log(masNum[i]);
-//     }
-// }
+// // for (let i = 0; i < masNum.length; i++) {
+// //     if (masNum[i] % 2 === 0) {
+// //         console.log(masNum[i]);
+// //     }
+// // }
 
 // - Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
 
