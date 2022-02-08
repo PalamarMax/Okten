@@ -58,18 +58,18 @@
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
 
 
-let person = [{name: 'Dima', age: 13}, {model: 'Camry'}];
-
-function keyArray(mas) {
-    const newArr = [];
-    for (let i = 0; i < mas.length; i++) {
-        if (typeof mas[i] === "object") {
-            keys = Object.values(mas[i]);
-            for (let j = 0, l = keys.length; j < l; j++) {
-                newArr.push(keys[j]);
-            }
-        }
-    }
-    return newArr;
-}
-console.log(keyArray(person));
+// let person = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+//
+// function keyArray(mas) {
+//     const newArr = [];
+//     for (let i = 0; i < mas.length; i++) {
+//         if (typeof mas[i] === "object") {
+//             keys = Object.values(mas[i]);
+//             for (let j = 0, l = keys.length; j < l; j++) {
+//                 newArr.push(keys[j]);
+//             }
+//         }
+//     }
+//     return newArr;
+// }
+// console.log(keyArray(person));
