@@ -1,6 +1,7 @@
 // - створити функцію, яка якщо приймає один аргумент, просто вивдоить його, якщо два аргументи - складає або конкатенує їх між собою.
 
 // function arg() {
+//     let rez;
 //     if (arguments.length === 1) {
 //         console.log(arguments[0]);
 //     } else if (arguments.length === 2) {
@@ -11,7 +12,7 @@
 //     }
 // }
 //
-// arg(55, 255, 555)
+// arg('we', 'b');
 
 
 // - створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
@@ -37,7 +38,7 @@
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
 
 // let person = [{name: 'Dima', age: 13}, {model: 'Camry'}];
-
+//
 // function keyArray(mas) {
 //     const newArr = [];
 //     for (let i = 0; i < mas.length; i++) {
