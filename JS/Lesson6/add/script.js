@@ -22,12 +22,9 @@
 // someeMAIL@i.ua
 // some.email@gmail.com
 
+//не дуже зрозумів завдання((
+
 // let mail = (email) => {
-//     for (let i = 0; i < email.length; i++) {
-//         if (email[i] === [А-Я]) {
-//             console.log('RAVLIK YEEEE!')
-//         }
-//     }
 //     for (let i = 0; i < email.length; i++) {
 //         if (email[i] === '@') {
 //             console.log('RAVLIK YEEEE!')
